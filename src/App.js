@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+//import React, { useEffect, useState } from "react"; - ONLY need useState
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
-import axios from 'axios';
+//import axios from 'axios'; - not needed here... man I keep back tracking
 
 import PlantList from "./components/PlantList";
 import ShoppingCart from "./components/ShoppingCart";
